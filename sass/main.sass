@@ -1,0 +1,39 @@
+.container
+	display: grid
+	grid-template-columns: repeat(12, 1fr)
+	grid-template-rows: 50px 350px 350px 350px 100px
+	grid-gap: 5px
+	grid-template-areas: "h h h h h h h h h h h h" "m m c c c c c c c c c c" "u u u u u u u u u u u u " "d d d d d d d d d d d d" "f f f f f f f f f f f f"
+	position: relative
+	max-width: 980px
+	margin: 0 auto
+	
+	@media screen and (max-width: 480px)
+		grid-template-areas: "m m m m m m h h h h h h" "c c c c c c c c c c c c" "f f f f f f f f f f f f"
+.header
+	grid-area: h
+	background-color: green
+
+
+.menu
+	grid-area: m
+	background-color: yellow
+
+.content
+	grid-area: c
+	background-color: brown
+	display: flex
+	flex-flow: row
+	justify-content: space-around
+	&-uno
+		grid-area: u
+		background-color: blue
+	&-due
+		grid-area: d
+		background-color: mediumslateblue
+	.element
+		color: white
+
+.footer
+	grid-area: f
+	background-color: red

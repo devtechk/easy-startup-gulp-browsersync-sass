@@ -1,0 +1,20 @@
+{
+  "name": "grid-practice",
+  "version": "1.0.0",
+  "description": "just a grid example",
+  "main": "index.js",
+  "scripts": {
+    "sass": "gulp sass",
+    "watch": "gulp sass:watch",
+    "go": "gulp default"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "nodemon": "^1.17.5",
+    "sass": "^1.5.1"
+  }
+}

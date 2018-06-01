@@ -11,15 +11,15 @@ gulp.task('serve', ['sass'], function() {
         index: "grid-template.html"
     });
 
-    gulp.watch("sass/*.sass", ['sass']).on('change', browserSync.reload);
     gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch('./sass/*.sass', ['sass']).on('change', browserSync.reload);
 });
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     return gulp.src("sass/*.sass")
         .pipe(sass())
-        .pipe(gulp.dest("css"))
+        .pipe(gulp.dest("css/"))
         .pipe(browserSync.stream());
 });
 

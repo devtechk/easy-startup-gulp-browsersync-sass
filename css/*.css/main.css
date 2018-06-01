@@ -32,7 +32,7 @@
     grid-area: d;
     background-color: mediumslateblue; }
   .content .element {
-    color: red; }
+    color: white; }
 
 .footer {
   grid-area: f;

@@ -4,9 +4,7 @@
   "description": "just a grid example",
   "main": "index.js",
   "scripts": {
-    "sass": "gulp sass",
-    "watch": "gulp sass:watch",
-    "go": "gulp default"
+    "start": "gulp default"
   },
   "author": "",
   "license": "ISC",

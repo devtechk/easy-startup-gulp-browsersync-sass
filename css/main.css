@@ -12,12 +12,15 @@
   position: relative;
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
-  text-shadow: 2px 0 4px rgba(0, 0, 0, 0.46); }
+  text-shadow: 2px 0 4px rgba(0, 0, 0, 0.77); }
 
 .container {
   margin: 0 auto;
   max-width: 1280px;
-  position: relative; }
+  position: relative;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  padding: 0 3.35vw; }
 
 .hero-content {
   position: relative; }
@@ -25,8 +28,11 @@
 .hero-title {
   color: #ffffff;
   text-align: center;
-  font-size: 52px;
+  font-size: 2.5vw;
   text-transform: uppercase; }
+  @media (max-width: 496px) {
+    .hero-title {
+      font-size: 10vw; } }
 
 .call-to-download {
   text-align: center;
@@ -37,7 +43,7 @@
 .btn.link-download {
   text-decoration: none;
   font-size: 1.5em;
-  background-color: #26ff49;
+  background-color: #03A9F4;
   border-radius: 5px;
   padding: 10px 10px 15px 10px;
   text-align: center;
@@ -65,9 +71,7 @@
   text-align: center;
   font-size: 3em;
   text-transform: uppercase;
-  border: 5px dotted;
-  display: inline-block;
-  padding: 15px; }
+  display: inline-block; }
 
 .gitstar {
   position: relative;
@@ -77,3 +81,25 @@
   margin: 0 auto; }
   .gitstar iframe {
     margin-left: 80px; }
+
+.markdown-body .container {
+  text-align: center; }
+
+.markdown-body p {
+  padding: 0 17vw; }
+
+.markdown-body span {
+  display: block; }
+
+.list {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  background: #80808021;
+  padding: 50px;
+  border-radius: 6px;
+  box-shadow: 2px 3px #8080805c; }
+
+footer .container {
+  text-align: center;
+  margin-top: 50px; }

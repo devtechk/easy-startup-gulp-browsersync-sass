@@ -11,17 +11,22 @@
 	position: relative
 	font-family: 'Roboto Mono', monospace
 	font-weight: 300
-	text-shadow: 2px 0 4px rgba(0,0,0,0.46)
+	text-shadow: 2px 0 4px rgba(0,0,0,0.77)
 .container
 	margin: 0 auto
 	max-width: 1280px
 	position: relative
+	font-family: 'Roboto Mono', monospace
+	font-weight: 300
+	padding: 0 3.35vw
 .hero-content
 	position: relative
 .hero-title
 	color: #ffffff
 	text-align: center
-	font-size: 52px
+	font-size: 2.5vw
+	@media (max-width: 496px)
+		font-size: 10vw
 	text-transform: uppercase
 .call-to-download
 	text-align: center
@@ -33,7 +38,7 @@
 	&.link-download
 		text-decoration: none
 		font-size: 1.5em
-		background-color: #26ff49
+		background-color: #03A9F4
 		border-radius: 5px
 		padding: 10px 10px 15px 10px
 		text-align: center
@@ -62,10 +67,9 @@
 	text-align: center
 	font-size: 3em
 	text-transform: uppercase
-	border: 5px dotted
+	//border: 5px dotted
 	display: inline-block
-	padding: 15px
-		
+	
 .gitstar
 	position: relative
 	width: 100%
@@ -74,3 +78,23 @@
 	margin: 0 auto
 	iframe
 		margin-left: 80px
+.markdown-body
+	.container
+		text-align: center
+	p
+		padding: 0 17vw
+	span
+		display: block
+.list
+	max-width: 400px
+	margin: 0 auto
+	text-align: left
+	background: #80808021
+	padding: 50px
+	border-radius: 6px
+	box-shadow: 2px 3px #8080805c
+	
+footer
+	.container
+		text-align: center
+		margin-top: 50px

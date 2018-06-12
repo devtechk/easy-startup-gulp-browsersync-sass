@@ -12,8 +12,8 @@ To install be sure to have node.js (and npm) installed on your computer, then go
 ```npm install```
 
 ### Run
-To run be sure to have node.js (and npm) installed on your computer, then go to the directory and run 
-```npm install```
+To run go to the directory and run 
+```npm run start```
 
 ### Support or Contact
 

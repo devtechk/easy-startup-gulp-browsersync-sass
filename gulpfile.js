@@ -8,7 +8,7 @@ gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
         server: "./",
-        index: "grid-template.html"
+        index: "index.html"
     });
 
     gulp.watch("*.html").on('change', browserSync.reload);

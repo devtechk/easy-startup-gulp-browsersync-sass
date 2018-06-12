@@ -1,19 +1,44 @@
 ## Welcome!
 
-Here is a simple boiler plate to start coding sites! Inlcude just gulp with browsersync so you can easily watch your edit on the fly, it also include sass preprocessor to speed up your productivity with css!
-Download it!
+Here is a simple boiler-plate to start coding sites and edit on the fly (auto css compiling)!
+
+Include:
+
+- gulp 
+- browser-sync
+- gulp-sass
+- nodemon
+- sass
+
+Download it :) 
 
 ### Requirements
-node.js
-npm
+- node.js
+- npm
 
 ### Install
-To install be sure to have node.js (and npm) installed on your computer, then go to the directory and run 
-```npm install```
+Be sure to have node.js (and npm) installed on your computer, then go to the directory with your terminal and run: 
 
-### Run
-To run go to the directory and run 
-```npm run start```
+```
+npm install
+
+```
+
+### Use it!
+
+To run go to the directory open a terminal window and run: 
+
+```
+npm run start
+
+```
+
+This will watch sass and html files.
+
+### Read
+
+
+
 
 ### Support or Contact
 

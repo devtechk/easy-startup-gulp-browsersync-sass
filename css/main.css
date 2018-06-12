@@ -1,39 +1,79 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 50px 350px 350px 350px 100px;
-  grid-gap: 5px;
-  grid-template-areas: "h h h h h h h h h h h h" "m m c c c c c c c c c c" "u u u u u u u u u u u u " "d d d d d d d d d d d d" "f f f f f f f f f f f f";
+.main {
+  background-color: #fff;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.hero {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: cover;
+  padding: 8vw 5vw;
   position: relative;
-  max-width: 980px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  text-shadow: 2px 0 4px rgba(0, 0, 0, 0.46); }
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  position: relative; }
+
+.hero-content {
+  position: relative; }
+
+.hero-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 52px;
+  text-transform: uppercase; }
+
+.call-to-download {
+  text-align: center;
+  position: relative;
+  height: 100px;
+  width: 100%; }
+
+.btn.link-download {
+  text-decoration: none;
+  font-size: 1.5em;
+  background-color: #26ff49;
+  border-radius: 5px;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.25em 0 rgba(0, 0, 0, 0.25), 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  right: 0;
+  margin-left: -75px;
+  width: 150px;
+  font-family: 'Arial';
+  box-sizing: border-box; }
+  .btn.link-download:active {
+    color: #fff;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+    margin-top: 5px;
+    padding-bottom: .25em; }
+
+#main .container {
+  text-align: center; }
+
+.welcome {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  border: 5px dotted;
+  display: inline-block;
+  padding: 15px; }
+
+.gitstar {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  text-align: center;
   margin: 0 auto; }
-  @media screen and (max-width: 480px) {
-    .container {
-      grid-template-areas: "m m m m m m h h h h h h" "c c c c c c c c c c c c" "f f f f f f f f f f f f"; } }
-
-.header {
-  grid-area: h;
-  background-color: green; }
-
-.menu {
-  grid-area: m;
-  background-color: yellow; }
-
-.content {
-  grid-area: c;
-  background-color: brown;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around; }
-  .content-uno {
-    grid-area: u;
-    background-color: blue; }
-  .content-due {
-    grid-area: d;
-    background-color: mediumslateblue; }
-  .content .element {
-    color: red; }
-
-.footer {
-  grid-area: f;
-  background-color: red; }
+  .gitstar iframe {
+    margin-left: 80px; }

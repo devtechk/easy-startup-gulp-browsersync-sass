@@ -10,14 +10,14 @@ Include:
 - nodemon
 - sass
 
-Download it :) 
-
 ### Requirements
+Just install node.js easy, [click](https://blog.hellotangible.com/an-absolute-beginners-guide-to-node-js-c27e6d108b5c)
+
 - node.js
 - npm
 
 ### Install
-Be sure to have node.js (and npm) installed on your computer, then go to the directory with your terminal and run: 
+Be sure to have node.js (and npm) installed on your computer, then go inside the directory /easy-startup using your terminal and run: 
 
 ```
 npm install
@@ -26,7 +26,7 @@ npm install
 
 ### Use it!
 
-To run go to the directory open a terminal window and run: 
+To run go inside the directory /easy-startup open a terminal window and run: 
 
 ```
 npm run start
@@ -35,11 +35,9 @@ npm run start
 
 This will watch sass and html files.
 
-### Read
-
-
+### Enjoy building sites!
 
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Contact me [Devtech](https://github.com/devtechk). This is an example page with its relative style (SASS) you can start working.

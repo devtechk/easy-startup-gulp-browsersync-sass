@@ -28,11 +28,18 @@
 .hero-title {
   color: #ffffff;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 10vw;
   text-transform: uppercase; }
-  @media (max-width: 496px) {
+  @media (min-width: 576px) {
     .hero-title {
-      font-size: 10vw; } }
+      color: red;
+      font-size: 2.5vw; } }
+  @media (min-width: 768px) {
+    .hero-title {
+      color: green; } }
+  @media (min-width: 992px) {
+    .hero-title {
+      color: pink; } }
 
 .call-to-download {
   text-align: center;

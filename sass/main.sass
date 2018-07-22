@@ -1,3 +1,5 @@
+@import "variables"
+
 .main
 	background-color: #fff
 	margin: 0 auto
@@ -23,10 +25,15 @@
 	position: relative
 .hero-title
 	color: #ffffff
+	@include sm
+		color: red
+		font-size: 2.5vw
+	@include md
+		color: green
+	@include lg
+		color: pink
 	text-align: center
-	font-size: 2.5vw
-	@media (max-width: 496px)
-		font-size: 10vw
+	font-size: 10vw
 	text-transform: uppercase
 .call-to-download
 	text-align: center
